@@ -16,21 +16,17 @@ following conditions:
 ### Code
 
 `
-@param {Object} array array containing the intergers.
-@param {_} n Number. n, the position of each value/item in array.
-@param {_} Target Number.
-@returns null || Object
 
-                function findTarget(array, n, target) {
-                let result = null;
-                if (n === array.length) return (result = null), result;
-                return (
-                    (result = array.filter(
-                    (int, index) => index !== n && array[n] + int === target
-                    )),
-                    result.length ? [array[n], ...result] : findTarget(array, (n += 1), target)
-                );
-                }
+        function findTarget(array, n, target) {
+            let result = null;
+            if (n === array.length) return (result = null), result;
+            return (
+                (result = array.filter(
+                (int, index) => index !== n && array[n] + int === target
+                )),
+                result.length ? [array[n], ...result] : findTarget(array, (n += 1), target)
+            );
+        }
 
 `
 
