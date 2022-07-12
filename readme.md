@@ -9,9 +9,9 @@
 Initialise a recursive function, and return a result based on the
 following conditions:
 
-1. Return [result] as null if {n} is equivalent to the length of {array}
-2. Return [result] as an array of numbers, containing two values that sum up to {target}
-3. Call [findTarget] with {n} incremented by 1.
+1. Return **result** as null if **n** is equivalent to the length of **array**
+2. Return **result** as an array of numbers, containing two values that sum up to **target**
+3. Call **findTarget** with **n** incremented by 1.
 
 ### Code
 
