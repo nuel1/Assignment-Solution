@@ -32,4 +32,4 @@ following conditions:
 
 ### Screenshot
 
-![solution screenshot](code.png)
+![solution screenshot](code.jpeg)
