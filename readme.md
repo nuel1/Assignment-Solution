@@ -29,7 +29,3 @@ following conditions:
         }
 
 `
-
-### Screenshot
-
-![solution screenshot](./code.jpg)
