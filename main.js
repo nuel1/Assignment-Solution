@@ -8,8 +8,8 @@
 //Initialise a recursive function, and return a result based on the
 // following conditions:
 // 1. Return {result} as null if {n} is equivalent to the length of {array}
-// 2. Return {result} as an array of numbers, containing two values that sums to {target}
-// 3. Else call the function with {n} incremented by 1 and run again.
+// 2. Return {result} as an array of numbers, containing two values that sum up to {target}
+// 3. Call {findTarget} with {n} incremented by 1.
 
 function findTarget(array, n, target) {
   let result = null;
